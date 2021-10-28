@@ -9,20 +9,20 @@
     <title>PopQuiz! - Coding </title>
 </head>
 <body>
-    <div class="container quiz-box">
+    <div class="container">
         <div class="row">
             <div class="col-md-2">
                 <p><a href="highscores.html">High Scores</a></p>
               </div>
-          <div class="col-md-8 align-items-center">
-            <h1 class="display-2">Coding Quiz!</h1>
-            <p class="lead">
+          <div class="col-md-8 align-items-center" id="quiz-box">
+            <h1 class="display-2" id="question-question">Coding Quiz!</h1>
+            <p class="lead" id="quiz-choices">
                 Let's take a coding quiz! Be warned- each incorrect answer will deduct 10 seconds from the game-- and your score!
               </p>
-              <button type="button" class="btn btn-primary">Start!</button>
+              <button type="button" class="btn btn-primary" id="start-btn">Start!</button>
           </div>
-          <div class="col-md-2">
-            <p><em>Time Remaining:</em></p>
+          <div class="col-md-2" >
+            <p id="time-counter"><em>Time Remaining:</em></p>
           </div>
         </div>
       </div>

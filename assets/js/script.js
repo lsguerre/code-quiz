@@ -30,3 +30,29 @@ var questions = [
         answer: "# -hashtag"
     }
 ]
+
+//some variables
+var startBtn = document.getElementById("#start-btn")
+var quizQuestion = document.getElementById("#quiz-question")
+var timer = document.getElementById("#time-counter")
+//functions
+startBtn.addEventListener.on("click",  countdown())
+//function startGame() {}
+
+
+
+function countdown() {
+    var timeLeft = 70
+    var timeInterval = setInterval(function(){
+        if (timeInterval > 0) {
+            timer.textContent = timeLeft
+            timeLeft--
+        } else if (timeLeft === 0) {
+            timer.textContent = timeLeft
+            timeLeft--
+
+        }else {
+            clearInterval(timeInterval)
+      } 1000
+    }
+    )}
