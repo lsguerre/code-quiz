@@ -8,23 +8,37 @@
     <link href="assets/css/style.css">
     <title>PopQuiz! - Coding </title>
 </head>
+
+
 <body>
     <div class="container">
         <div class="row">
             <div class="col-md-2">
-                <p><a href="highscores.html">High Scores</a></p>
+                <h3><a href="highscores.html">High Scores</a></h3>
               </div>
           <div class="col-md-8 align-items-center" id="quiz-box">
-            <h1 class="display-2" id="question-question">Coding Quiz!</h1>
-            <p class="lead" id="quiz-choices">
+            <h1 class="display-2" id="questionTitle">Coding Quiz!</h1>
+            
+            <p class="lead" >
                 Let's take a coding quiz! Be warned- each incorrect answer will deduct 10 seconds from the game-- and your score!
-              </p>
-              <button type="button" class="btn btn-primary" id="start-btn">Start!</button>
-          </div>
-          <div class="col-md-2" >
-            <p id="time-counter"><em>Time Remaining:</em></p>
+              </p> 
+            <!--answer choices below-->
+               
+           
+            <button type="button" class="btn btn-primary" id="start-btn">Start!</button>
+            </div>
+            
+              
+             
+          
+          
+          
+       
+          <div class="col-md-2">
+            <h3 id="time-counter"></h3>
           </div>
         </div>
       </div>
+      <script src="assets/js/script.js"></script>
 </body>
 </html>
